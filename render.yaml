@@ -1,9 +1,0 @@
-services:
-  - type: worker
-    name: telegram-broadcast-bot
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python scheduled_broadcast_bot.py
-    envVars:
-      - key: BOT_TOKEN
-        value: 8209185155:AAHWUrMimRj06E18wuRcji8IF8EtPezDGt0
