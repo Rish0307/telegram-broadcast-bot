@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/webhook.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "env": {
+    "BOT_TOKEN": "8209185155:AAHWUrMimRj06E18wuRcji8IF8EtPezDGt0"
+  }
+}
