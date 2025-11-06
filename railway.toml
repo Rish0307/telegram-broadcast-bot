@@ -1,0 +1,12 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python scheduled_broadcast_bot.py"
+restartPolicyType = "always"
+
+[[services]]
+name = "telegram-broadcast-bot"
+
+[services.variables]
+BOT_TOKEN = "${{shared.BOT_TOKEN}}"
