@@ -1,0 +1,1 @@
+worker: python scheduled_broadcast_bot.py
